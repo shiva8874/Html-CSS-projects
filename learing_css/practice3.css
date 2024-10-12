@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(219, 247, 237);
+    /* display: block; */
+
+}
+.menu{
+    /* display: block; */
+    line-height: 30px;
+    border: 3px solid white;
+    /* background-color: black; */
+    text-emphasis: none;
+    text-align: center;
+    display: list-item;
+   
+
+}
+
+li{
+    display: inline;
+}
+ul li a  {
+    /* background-color: black; */
+    /* display: list-item; */
+    text-decoration: none;
+    padding: 10px;
+    /* background-color: black; */
+
+
+}
+input{
+    display: block;
+
+}
+a:hover{
+    background-color: brown;
+    justify-content: center;
+}

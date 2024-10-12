@@ -1,0 +1,22 @@
+:root {
+    --color-primary: color rgb(177, 177, 205);
+    --color-white: color rgb(182, 182, 198);
+    --color-black: color rgb(124, 142, 81);
+    --color-black-1: color rgb(212, 215, 217);
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-boxS;
+}
+  body{
+    font-family: sans-serif;
+
+  }
+  .menu_bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+  }

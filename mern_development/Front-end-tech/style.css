@@ -1,0 +1,56 @@
+body{
+    background-color: yellowgreen;
+}
+
+/* .container{
+   display: flex;
+   flex-direction: row;
+     
+}
+
+.first{
+    flex-shrink: 1ca;
+}
+.second{
+    flex-shrink: 2;
+} */
+
+/* .container div{
+    background: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-basis: 200px;
+    /* Definition and Usage. The flex-basis property 
+    specifies the initial length of a flexible item. 
+    Note: If the element is not
+   a flexible item, the flex-basis ... */
+  /*  border-bottom: none;
+    width: 200px;
+    margin: 12px;
+    height: 30px;
+} 
+*/
+
+#container{
+    
+    height: 100vw;
+    width: 100vw;
+    justify-content: flex-end;
+    /* position: absolute; */
+    align-items: flex-start;
+    background-color: red;
+    align-items: center;
+
+}
+.first{
+
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    /* text-align: center; */
+    /* justify-content: center; */
+   
+}

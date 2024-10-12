@@ -1,0 +1,20 @@
+.webdesigntuts-workshop {
+    background: rgb(206, 182, 182);
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.webdesigntuts-workshop button:before,
+.webdesigntuts-workshop button::after{
+    background: blue;
+    background: linear-gradient(yellow,aqua);
+    color: blanchedalmond;
+    outline: none;
+}
+
+.webdesigntuts-workshop button:active{
+    background: #393;
+    box-shadow: 0 0 5px reb(0,255,2),inset 0 0 5px rgba(red, green, blue, alpha);
+}

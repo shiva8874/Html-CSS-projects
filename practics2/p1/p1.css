@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.menu_bar{
+    background-color: rgb(58, 9, 9);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+.logo{
+    color: antiquewhite;
+    font-size: 30px;
+}
+.logo span{
+    color: rgb(99, 179, 179);
+
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+    .menu_bar ul li{
+        padding: 10px 30px;
+}
+.menu_bar ul a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 20px;
+}
+.menu_bar ul li a:haver {
+    color: #000;
+}
+
